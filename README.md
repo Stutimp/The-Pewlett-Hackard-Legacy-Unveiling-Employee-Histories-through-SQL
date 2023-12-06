@@ -7,7 +7,7 @@ For this assignment, I divided my work into three parts:
 - Data Engineering.
 - Data Analysis.
 
-**For the Data Modeling part**, I first went to Quick Database diagrams (Quick DBD)https://app.quickdatabasediagrams.com/#/ and created DB schema diagram with it using all the provided six csv files. I saved the diagram in .png format and also exported into pgAdmin4 and made a sql file named as, 'schema sql'.
+**For the Data Modeling part**, First I did my analysis using python codes inside jupyter notebook, where I found out data types of the tables and looked for columnns in the tables which are eligible to be the primary key in their respective tables. After getting some valuable insights from my jupyter notebook analayis using python codes, then I went to Quick Database diagrams (Quick DBD)https://app.quickdatabasediagrams.com/#/ and created DB schema diagram with it using all the provided six csv files. I saved the diagram in .png format and also exported into pgAdmin4 and made a sql file named as, 'schema sql'.
 
 **For the Data Engineering part**,On the pgAdmin4 I modified the exported codes little differently to improve the readability while specifying the data types, primary keys, foreign keys, and other constraints. I created the tables in the correct order to handle the foreign keys.
 
